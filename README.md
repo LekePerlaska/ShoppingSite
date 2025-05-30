@@ -1,4 +1,4 @@
-### Shopping Site For HTML Practice
+# Shopping Site For HTML Practice
 
 This is simply a practice site for HTML/CSS
 
