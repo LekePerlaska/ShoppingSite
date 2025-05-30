@@ -31,6 +31,21 @@ ul, a {
   height: 980px;
   padding: 0;
 }
+@media screen and (min-width: 2834px) {
+  #header-section{
+    height: 1340px;
+  }
+}
+@media screen and (min-width: 3779px) {
+  #header-section{
+    height: 1640px;
+  }
+}
+@media screen and (min-width: 6299px) {
+  #header-section{
+    height: 2440px;
+  }
+}
 #nav-bar{
   width: 100%;
   height: 10%;
@@ -70,7 +85,6 @@ ul, a {
   padding-right: 10px;
   font-size: 25px;
 }
-
 .nav-element button{
   width: 135%;
   height:60%;
@@ -82,6 +96,34 @@ ul, a {
     height: 55%;
   }
 }
+@media screen and (min-width: 3779px) {
+  .nav-element{  
+    font-size: 40px;
+  }
+  .nav-element > button{
+    height: 45%;
+    font-size: 35px;
+  }
+  #logo{
+    font-size: 35px;
+  }
+  #logo > img{
+    padding-top: 48px;
+    height: 30%;
+  }
+}
+@media screen and (min-width: 6299px) {
+  .nav-element{
+    font-size: 70px;
+    padding-top: 30px;
+  }
+  .nav-element > button{
+    font-size: 55px;
+  }
+  #logo{
+    font-size: 55px;
+  }
+}
 #header-main{
   margin: 140px auto 5px auto;
   width: 90%;
@@ -89,11 +131,6 @@ ul, a {
   display: flex;
   background-color: #F4F6F5;
   border-radius: 3%;
-}
-@media screen and (min-width: 2834px) {
-  #header-main{
-    height: 95%;
-  }
 }
 #header-contents{
   width: 50%;
@@ -112,6 +149,18 @@ ul, a {
   height: 70px;
   font-size: 30px;
 }
+@media screen and (min-width: 2834px) {
+  #header-main{
+    height: 90%;
+    margin-top: 165px;
+  }
+  #header-contents > h1{
+    font-size: 80px;
+  }
+  #header-contents > h3{
+    font-size: 35px;
+  }
+}
 @media screen and (max-width: 1575px){
   #header-contents > button {
     width: 30%;
@@ -125,6 +174,40 @@ ul, a {
   background-size: 950px 800px;
   background-repeat: no-repeat;
   
+}
+@media screen and (min-width: 3779px) {
+  #header-contents > h1{
+    font-size: 100px;
+  }
+  #header-contents > h3{
+    font-size: 45px;
+  }
+  #header-contents > button{
+    width: 30%;
+    height: 100px;
+    font-size: 50px;
+  }
+  #header-img{
+    background-size: 1400px 1220px;
+  }
+}
+@media screen and (min-width: 6299px) {
+  #header-main{
+    margin-top: 300px;
+  }
+  #header-contents > h1{
+    font-size: 160px;
+  }
+  #header-contents > h3{
+    font-size: 85px;
+  }
+  #header-contents > button{
+    font-size: 80px;
+    height: 180px;
+  }
+  #header-img{
+    background-size: 2100px 1920px;
+  }
 }
 .white{
   background-color: white;
@@ -157,6 +240,11 @@ ul, a {
     width: 30%;
   } 
 }
+@media screen and (min-width: 6299px) {
+  .hdr-h1{
+    margin-bottom: -200px;
+  }
+}
 .rotate{
   transform: rotate(4deg);
 }
@@ -169,6 +257,16 @@ ul, a {
   width: 5%;
   height: 35%;
   padding: 3% 5.5%;
+}
+@media screen and (min-width: 3779px) {
+  #sponsors{
+    height: 306px;
+  }
+}
+@media screen and (min-width: 6299px) {
+  #sponsors{
+    height: 506px;
+  }
 }
 .NA-img{
   width: 484px;
@@ -184,6 +282,18 @@ ul, a {
   .NA-img{
     width: 644px;
     height: 804px;
+  }
+}
+@media screen and (min-width: 3779px) {
+  .NA-img{
+    width: 844px;
+    height: 1004px;
+  }
+}
+@media screen and (min-width: 6299px) {
+  .NA-img{
+    width: 1444px;
+    height: 1604px;
   }
 }
 @media screen and (max-width: 1733px){
@@ -203,11 +313,6 @@ ul, a {
   height: 1000px;
   margin: 3% auto;
 }
-@media screen and (min-width: 2834px) {
-  #new-arrivals{
-    height: 1080px;
-  }
-}
 #new-arrivals-title{
   width: 22%;
   font-family: var(--primary-font);
@@ -224,6 +329,9 @@ ul, a {
   }
 }
 @media screen and (min-width: 2834px) {
+  #new-arrivals{
+    height: 1080px;
+  }
   #new-arrivals-title{
     width: 16%;
   }
@@ -271,6 +379,43 @@ ul, a {
 .NA-description > h6 {
   font-size: 20px;
   color: var(--subtext);
+}
+@media screen and (min-width: 3779px) {
+  #new-arrivals{
+    height: 1440px;
+  }
+  #new-arrivals-title{
+    font-size: 65px;
+    width: 18%;
+  }
+  .NA-content > a{
+    font-size: 60px;
+  }
+  .NA-description > h3{
+    font-size: 45px;
+  }
+  .NA-description > h6{
+    font-size: 35px;
+  }
+}
+@media screen and (min-width: 6299px) {
+  #new-arrivals{
+    height: 2240px;
+  }
+  #new-arrivals-title{
+    font-size: 95px;
+    background-size: 360px 90px;
+    width: 15%;
+  }
+  .NA-content > a{
+    font-size: 90px;
+  }
+  .NA-description > h3{
+    font-size: 70px;
+  }
+  .NA-description > h6{
+    font-size: 55px;
+  }
 }
 #discount{
   display: flex;
@@ -343,6 +488,56 @@ ul, a {
     margin-bottom: 5%;
   }
 }
+@media screen and (min-width: 3779px) {
+  #discount{
+    height: 1180px;
+  }
+  #discount-img{
+    padding-top: 20px;
+  }
+  #sale{
+    margin-top: 3%;
+  }
+  #sale > h1{
+    font-size: 120px;
+  }
+  #sale > h3{
+    font-size: 35px;
+  }
+  #sale > p{
+    font-size: 35px;
+  }
+  #sale > button{
+    font-size: 30px;
+  }
+}
+@media screen and (min-width: 6299px) {
+  #discount{
+    height: 1880px;
+  }
+  #discount-img > img{
+    height: 1640px;
+    background-size: 1300px 1600px;
+    margin-left: 16%;
+  }
+  #sale{
+    margin-right: 16%;
+  }
+  #sale > h1 {
+    font-size: 180px;
+    margin-top: -10px;
+  } 
+  #sale > h3{
+    font-size: 80px;
+  }
+  #sale > p{
+    font-size: 80px;
+  }
+  #sale > button{
+    font-size: 75px;
+    height: 160px;
+  }
+}
 @media screen and (max-width: 1733px){
   #discount-img{
     padding-left: 80px;
@@ -410,6 +605,24 @@ ul, a {
 .favorite-options{
   padding-right: 4%;
 }
+@media screen and (min-width: 3779px) {
+  #favorite{
+    height: 1440px;
+  }
+  .favorite-img{
+    width: 1444px;
+    height: 1005px;
+  }
+}
+@media screen and (min-width: 6299px) {
+  #favorite{
+    height: 2280px;
+  }
+  .favorite-img{
+    width: 2484px;
+    height: 1665px;
+  }
+}
 .dwl-app-img{
   width: 204px;
   height: 71px;
@@ -454,6 +667,46 @@ ul, a {
   }
   #app > img {
     height: 940px;
+  }
+  .dwl-app-img{
+    height: 100px;
+  }
+  .dwl-app-img:last-child{
+    width: 250px;
+  }
+}
+@media screen and (min-width: 3779px) {
+  #app{
+    height: 1080px;
+  }
+  #app > img{
+    height: 1040px;
+  }
+  .dwl-app-img{
+    height: 120px;
+  }
+  .dwl-app-img:last-child{
+    width: 300px;
+  }
+}
+@media screen and (min-width: 6299px) {
+  #app{
+    height: 1640px;
+  }
+  #app-ad > h1{
+    font-size: 100px;
+  }
+  #app-ad > p{
+    font-size: 67px;
+  }
+  #app > img{
+    height: 1660px;
+  }
+  .dwl-app-img{
+    height: 200px;
+  }
+  .dwl-app-img:last-child{
+    width: 540px;
   }
 }
 #join{
@@ -520,6 +773,43 @@ ul, a {
   font-size: 15px;
   padding-left: 10px;
 }
+@media screen and (min-width: 3779px) {
+  #join{
+    height: 680px;
+  }
+  #join-center{
+    font-size: 35px;
+  }
+  #join-center > div{
+    width: 25%;
+    height: 12%;
+    padding-top: 4px;
+  }
+  #join-center > div > button{
+    font-size: 35px;
+    margin-top: 4px;
+  }
+  #join-center > div > input{
+    font-size: 25px;
+  }
+}
+@media screen and (min-width: 6299px) {
+  #join{
+    height: 1140px;
+  }
+  #join-center{
+    font-size: 65px;
+  }
+  #join-center > div{
+    width: 27%;
+  }
+  #join-center > div > button{
+    font-size: 65px;
+  }
+  #join-center > div > input{
+    font-size: 45px;
+  }
+}
 footer{
   width: 100%;
   height: 545px;
@@ -556,4 +846,28 @@ footer > div {
 }
 #company{
   margin-left: 30%;
+}
+@media screen and (min-width: 3779px) {
+  footer{
+    height: 645px;
+    font-size: 35px;
+}
+  footer > div {
+    padding-top: 3%;
+  }
+  #icons > a {
+    font-size: 34px;
+  }
+}
+@media screen and (min-width: 6299px) {
+  footer{
+    height: 1400px;
+    font-size: 65px;
+  }
+  #icons > a{
+    font-size: 85px;
+  }
+  .footer-h6{
+    font-size: 55px;
+  }
 }
